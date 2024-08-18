@@ -1,0 +1,28 @@
+figure {
+  border: thin #af9e9e solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+  background-color: #f0f0f0;
+}
+
+img {
+  max-width: 250px;
+  max-height: 2500px;
+}
+
+figcaption {
+  background-color: hsl(0, 21%, 22%);
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
